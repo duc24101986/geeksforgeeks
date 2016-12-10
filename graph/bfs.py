@@ -29,7 +29,6 @@ def bfs(graph, start):
         
         for nbr_vertex in nbr:
             if nbr_vertex not in path:
-                
                 vetices_queue.put(nbr_vertex)
                 
     print path
