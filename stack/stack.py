@@ -25,7 +25,7 @@ class Stack:
 
 if __name__ == '__main__':
     stack = Stack()
-    for i in range(1000):
+    for i in range(10):
         stack.push(i)
 
     print "length : " + str(stack.size())
